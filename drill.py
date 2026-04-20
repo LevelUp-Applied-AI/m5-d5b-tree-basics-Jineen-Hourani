@@ -76,7 +76,6 @@ def train_balanced_forest(X_train, y_train, X_test, y_test,
     )
     rf.fit(X_train, y_train)
     
-    # 2. Make predictions on the test set
     y_pred = rf.predict(X_test)
     
     # 3. Calculate metrics
